@@ -1,2 +1,15 @@
 
 sdk/android/.DS_Store
+
+.idea/
+
+.vs/
+
+bin/
+
+obj/
+
+.DS_Store
+
+
+src/MidineroFingerprintProxy/build/

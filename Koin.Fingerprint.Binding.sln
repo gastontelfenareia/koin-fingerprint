@@ -1,0 +1,49 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koin.Fingerprint.Droid", "src\Koin.Fingerprint.Droid\Koin.Fingerprint.Droid.csproj", "{26F0D393-8C87-4013-8DDA-53BC841A3CA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koin.Fingerprint.DemoApp", "src\Koin.Fingerprint.DemoApp\Koin.Fingerprint.DemoApp.csproj", "{7020EEF1-FAA7-4270-A7E3-8E4E2CDB377E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koin.Fingerprint.DemoApp.Droid", "src\Koin.Fingerprint.DemoApp.Droid\Koin.Fingerprint.DemoApp.Droid.csproj", "{0573899E-AFCC-42E0-B86B-EE727C6A415A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koin.Fingerprint.DemoApp.iOS", "src\Koin.Fingerprint.DemoApp.iOS\Koin.Fingerprint.DemoApp.iOS.csproj", "{522AB410-A1B9-4D6A-94AE-4CFD934BE185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koin.Fingerprint.iOS", "src\Koin.Fingerprint.iOS\Koin.Fingerprint.iOS.csproj", "{60C92E9F-236B-4F52-AE08-078D3E1DA8C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26F0D393-8C87-4013-8DDA-53BC841A3CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F0D393-8C87-4013-8DDA-53BC841A3CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F0D393-8C87-4013-8DDA-53BC841A3CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F0D393-8C87-4013-8DDA-53BC841A3CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7020EEF1-FAA7-4270-A7E3-8E4E2CDB377E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7020EEF1-FAA7-4270-A7E3-8E4E2CDB377E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7020EEF1-FAA7-4270-A7E3-8E4E2CDB377E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7020EEF1-FAA7-4270-A7E3-8E4E2CDB377E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0573899E-AFCC-42E0-B86B-EE727C6A415A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0573899E-AFCC-42E0-B86B-EE727C6A415A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0573899E-AFCC-42E0-B86B-EE727C6A415A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0573899E-AFCC-42E0-B86B-EE727C6A415A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522AB410-A1B9-4D6A-94AE-4CFD934BE185}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{522AB410-A1B9-4D6A-94AE-4CFD934BE185}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{522AB410-A1B9-4D6A-94AE-4CFD934BE185}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{522AB410-A1B9-4D6A-94AE-4CFD934BE185}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{60C92E9F-236B-4F52-AE08-078D3E1DA8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C92E9F-236B-4F52-AE08-078D3E1DA8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C92E9F-236B-4F52-AE08-078D3E1DA8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C92E9F-236B-4F52-AE08-078D3E1DA8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78080EB4-A270-4CF3-BAC5-B0E36BAFDDAA}
+	EndGlobalSection
+EndGlobal
