@@ -54,18 +54,18 @@ object DeviceFingerprint {
     private var retryCount = 0
     private var minimumDelay = 5.0
     private val retryMax = 3
-    const val defaultURL = "https://api-sandbox.koin.com.br/fingerprint/session/mobile"
+    public const val defaultURL = "https://api-sandbox.koin.com.br/fingerprint/session/mobile"
     private var currentURL = defaultURL
     private var currentOrganizationId: String = ""
     private lateinit var storedData: MutableMap<String, Any?>
 
 
-    fun register(organizationId: String, url: String = defaultURL) {
+    fun register(organizationId: String, url: String) {
         currentURL = url
         currentOrganizationId = organizationId
     }
 
-    fun profile(c: Context, sessionId: String) {
+    fun profileWithSessionId(c: Context, sessionId: String) {
         setSessionId(c, sessionId)
         GlobalScope.launch {
             gatherDeviceInformation(c)
